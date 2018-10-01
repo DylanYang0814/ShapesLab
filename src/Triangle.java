@@ -1,4 +1,4 @@
-public class Triangle extends main{
+public class Triangle extends Shape{
     private int side;
     public Triangle() {
 
