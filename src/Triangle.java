@@ -1,6 +1,7 @@
 public class Triangle extends Shape
 {
     private int side;
+
     public Triangle()
     {
 
