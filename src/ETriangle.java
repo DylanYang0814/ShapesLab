@@ -1,10 +1,10 @@
-public class Triangle extends Shape
+public class ETriangle extends Shape
 {
     private int side;
-
-    public Triangle()
+    public ETriangle(int side)
     {
-
+        super("Triangle");
+        this.side = side;
     }
     public double getPerimeter()
     {
