@@ -5,12 +5,12 @@ public class Circle extends Shape
     {
         this.radius = radius;
     }
-    public int getArea()
+    public double getArea()
     {
-        return (int) (this.radius * this.radius * 3.14);
+        return (this.radius * this.radius * 3.14);
     }
-    public int getPerimeter()
+    public double getPerimeter()
     {
-        return (int) (this.radius * 2 * 3.14);
+        return (this.radius * 2 * 3.14);
     }
 }
