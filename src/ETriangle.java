@@ -3,7 +3,7 @@ public class ETriangle extends Shape
     private int side;
     public ETriangle(int side)
     {
-        super("Triangle");
+        super("ETriangle");
         this.side = side;
     }
     public double getPerimeter()
