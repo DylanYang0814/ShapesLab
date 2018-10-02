@@ -11,6 +11,6 @@ public class Triangle extends Shape
     }
     public double getArea()
     {
-        return((side*side) / 2);
+        return(Math.sqrt(3)/4)*(side*side);
     }
 }
