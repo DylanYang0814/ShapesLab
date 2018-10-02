@@ -5,7 +5,9 @@ public class Rectangle extends Shape{
 
     public Rectangle(int width, int length)
     {
-        super("");
+        super("Rectangle");
+        this.width = width;
+        this.length = length;
 
     }
     @Override
