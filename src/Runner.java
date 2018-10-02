@@ -5,8 +5,9 @@ public class Runner {
         Shape shape2 = new ETriangle(5);
         Shape shape3 = new Circle(10);
         Shape shape4 = new Square(5);
+        Shape shape5 = new Ellipse(4,6);
 
-        Shape[] shapes = {shape1, shape2, shape3, shape4};
+        Shape[] shapes = {shape1, shape2, shape3, shape4, shape5};
 
         for (Shape cur : shapes)
         {

@@ -11,11 +11,11 @@ public class Ellipse extends Shape
     @Override
     public double getArea()
     {
-        return (2*Math.PI * Math.sqrt(((radius1*radius1) + (radius2*radius2))/2));
+        return (radius1 * radius2 * Math.PI);
     }
     @Override
     public double getPerimeter()
     {
-        return (radius1 * radius2 * Math.PI);
+        return (2*Math.PI * Math.sqrt(((radius1*radius1) + (radius2*radius2))/2));
     }
 }
