@@ -1,7 +1,7 @@
-public class Triangle extends Shape
+public class ETriangle extends Shape
 {
     private int side;
-    public Triangle(int side)
+    public ETriangle(int side)
     {
         super("Triangle");
         this.side = side;
